@@ -1,4 +1,3 @@
-2
 #include <Wire.h>
 #include <Sp
 arkFun_ADXL345.h>
