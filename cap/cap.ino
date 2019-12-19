@@ -17,12 +17,10 @@ uint8_t degree[8]  = {140,146,146,140,128,128,128,128};
 void setup(){
 
   Serial.begin(9600);
-  adxl.powerOn();
   pinMode(LEFT_LED, OUTPUT);
   pinMode(RIGHT_LED, OUTPUT);
   digitalWrite(LEFT_LED, HIGH);
   digitalWrite(RIGHT_LED, HIGH);
- adxl.printAllRegister();
 }
 
 void blinkON(){
